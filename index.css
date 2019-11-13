@@ -1,0 +1,159 @@
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #faf68c;
+}
+
+.switch {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.screen {
+    background-color: #404040;
+    width: 40%;
+    height: 45%;
+    border: 15px solid #23282b;
+
+    box-shadow: 1px 1px 1px 4px #202020;
+}
+
+.screen:active {
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url("./sega.jpg");
+    background-size: auto;
+}
+
+/* .screen:hover {
+    transform: scale(1.2);
+    transition-duration: 1s;
+} */
+
+.joy-con-left {
+    width: 7%;
+    height: 45%;
+    background-color: #eb6ce8;
+    border: 15px solid #eb6ce8;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: space-evenly;
+
+    box-shadow: 1px 1px 1px 4px #202020;
+}
+
+.joy-con-right {
+    width: 7%;
+    height: 45%;
+    background-color: #eb4034;
+    border: 15px solid #eb4034;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: space-evenly;
+
+    box-shadow: 1px 1px 1px 4px #202020;
+}
+
+.analog {
+    border-radius: 100%;
+    background-color: #404040;
+    width: 50%;
+    height: 15%;
+
+    border: 5px solid #202020;
+}
+
+.track-pad {
+    width: 100%;
+    height: 35%;
+}
+
+.line-1 {
+    width: 100%;
+    height: 20%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.line-2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 20%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-1 {
+    border-radius: 100%;
+    background-color: #404040;
+    width: 23%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #ffffff;
+    font-weight: lighter;
+    font-size: smaller;
+
+    border: 5px solid #202020;
+}
+
+.button-2 {
+    border-radius: 100%;
+    background-color: #404040;
+    width: 23%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #ffffff;
+    font-weight: lighter;
+    font-size: smaller;
+
+    border: 5px solid #202020;
+}
+
+.btn_home {
+    border-radius: 100%;
+    background-color: #404040;
+    width: 20%;
+    height: 6%;
+}
+
+/* .joy-con:hover {
+    transform: scale(1.2);
+    transition-duration: 1s;
+} */
